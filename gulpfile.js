@@ -11,7 +11,7 @@ gulp.task('coffee', () => {
 
 gulp.task('sass', () => {
   gulp.src('./src/sass/*.scss')
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
     .pipe(gulp.dest('./public/css/'))
 })
 
