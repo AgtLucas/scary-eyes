@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp",
+    "watch": "watch 'npm run gulp' src/**/",
+    "start": "npm run gulp & npm run watch"
   },
   "repository": {
     "type": "git",
