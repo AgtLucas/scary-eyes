@@ -3,3 +3,12 @@ $blue: #08c;
 body {
   background: $blue;
 }
+
+a {
+  color: #666;
+
+  @at-root input:focus,
+  &:hover {
+    color: $blue;
+  }
+}
