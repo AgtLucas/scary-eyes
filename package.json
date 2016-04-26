@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/scary-eyes/issues"
   },
-  "homepage": "https://github.com/AgtLucas/scary-eyes#readme"
+  "homepage": "https://github.com/AgtLucas/scary-eyes#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-sass": "^2.3.1",
+    "parallelshell": "^2.0.0",
+    "watch": "^0.17.1"
+  }
 }
