@@ -25,5 +25,8 @@
     "gulp-util": "^3.0.7",
     "parallelshell": "^2.0.0",
     "watch": "^0.18.0"
+  },
+  "dependencies": {
+    "deep-assign": "^2.0.0"
   }
 }
