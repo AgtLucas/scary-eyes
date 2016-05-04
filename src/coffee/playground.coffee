@@ -14,3 +14,16 @@ square = (x) -> x * x
 # }
 fill = (container, liquid = "coffee") ->
   "Filling the #{container} with #{liquid}."
+
+# Lexical scoping
+# var changeNumbers, inner, outer
+#
+# outer = 1
+#
+# changeNumbers = function() {
+#  var inner
+#  inner = -1
+#  return outer = 10
+# }
+#
+# inner = changeNumbers()
