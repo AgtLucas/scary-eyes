@@ -33,3 +33,11 @@ changeNumbers = ->
   outer = 10
 
 inner = changeNumbers()
+
+# If, Else, Unless...
+# var mood
+#
+# if (singing) {
+#  mood = greatlyImproved
+# }
+mood = greatlyImproved if singing
