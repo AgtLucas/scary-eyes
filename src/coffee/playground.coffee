@@ -12,7 +12,12 @@ square = (x) -> x * x
 #
 #  return Array.prototype.slice.call(elements)
 # }
-
+$$ = (selector, context) ->
+  context = context or document
+  
+  elements = context.querySelectorAll selector
+  
+  Array::slice.call elements
 
 
 # let fill = (container, liquid) => {
