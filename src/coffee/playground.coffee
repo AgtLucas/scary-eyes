@@ -5,6 +5,16 @@
 # }
 square = (x) -> x * x
 
+# function $$ (selector, context) {
+#  context = context || document
+#
+#  var elements = context.querySelectorAll(selector)
+#
+#  return Array.prototype.slice.call(elements)
+# }
+
+
+
 # let fill = (container, liquid) => {
 #  if (liquid == null) {
 #    liquid = 'coffee'
